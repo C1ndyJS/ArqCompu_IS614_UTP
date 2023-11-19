@@ -2,22 +2,21 @@
 
 ## Modulos 
 **ALU (Unidad Lógico-Aritmética)**
--  Este módulo realiza operaciones aritméticas y lógicas según la señal de control aluOp.
-- Soporta múltiples operaciones básicas sobre los operandos ASrc y BSrc.
+  -  Este módulo realiza operaciones aritméticas y lógicas según la señal de control aluOp.
+  - Soporta múltiples operaciones básicas sobre los operandos ASrc y BSrc.
 
 - **Parámetros:**
-- `clk`: Señal de reloj.
-- `rst`: Señal de reinicio.
-- `we`: Señal de escritura habilitada.
-- `wrAddr`: Dirección de escritura.
-- `rdAddr1`: Dirección de lectura 1.
-- `rdAddr2`: Dirección de lectura 2.
-- `wrData`: Datos a escribir.
+  - `clk`: Señal de reloj.
+  - `rst`: Señal de reinicio.
+  - `we`: Señal de escritura habilitada.
+  - `wrAddr`: Dirección de escritura.
+  - `rdAddr1`: Dirección de lectura 1.
+  - `rdAddr2`: Dirección de lectura 2.
+  - `wrData`: Datos a escribir.
 
 - **Salidas**
-
-- `rdData1`: Datos leídos desde la dirección 1.
-- `rdData2`: Datos leídos desde la dirección 2
+  - `rdData1`: Datos leídos desde la dirección 1.
+  - `rdData2`: Datos leídos desde la dirección 2
 
 - **Funcionamiento**
 - *Operación de Escritura (`Write Operation`)*:
