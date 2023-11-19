@@ -29,3 +29,5 @@ assign rdData1 = (rdAddr1 == 5'b0) ? 32'b0 : regFile[rdAddr1];
 assign rdData2 = (rdAddr2 == 5'b0) ? 32'b0 : regFile[rdAddr2]; 
 
 endmodule
+
+//REVISADO
