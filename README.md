@@ -1,5 +1,7 @@
+# Procesador Monociclo Risc V 32i
 
- * Módulo ALU (Unidad Lógico-Aritmética)
+## Modulos 
+ALU (Unidad Lógico-Aritmética)
  * Este módulo realiza operaciones aritméticas y lógicas según la señal de control aluOp.
  * Soporta múltiples operaciones básicas sobre los operandos ASrc y BSrc.
  * Parámetros:
@@ -8,3 +10,10 @@
  *   - aluOp: Señal de control de 4 bits que selecciona la operación a realizar.
  *   - alures: Salida de datos de 32 bits que contiene el resultado de la operación.
  
+
+ ## Authors
+
+Esteban Salazar Narvaez - <> - <> - <><br />
+Cindy Marcela Jimenez Saldarriaga - <> - <> - <><br />
+### Contributors
+Julian Esteban Collazos
